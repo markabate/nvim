@@ -109,9 +109,9 @@ vim.keymap.set("n", "nn", ":set nonu<CR>")
 vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>")
 
 -- Tabs
-vim.keymap.set("n", "<C-t>", ":tabnew<CR>")
-vim.keymap.set("n", "<C-r>", ":tabmove +1<CR>")
-vim.keymap.set("n", "<C-l>", ":tabmove -1<CR>")
+vim.keymap.set("n", "<C-w>n", ":tabnew<CR>")
+vim.keymap.set("n", "<C-w>r", ":tabmove +1<CR>")
+vim.keymap.set("n", "<C-w>l", ":tabmove -1<CR>")
 
 -- Settings
 vim.opt.tabstop = 4
