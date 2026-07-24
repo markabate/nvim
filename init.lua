@@ -105,6 +105,9 @@ vim.keymap.set("n", "om", ":lua vim.diagnostic.open_float()<CR>")
 vim.keymap.set("n", "ln", ":set nu<CR>")
 vim.keymap.set("n", "nn", ":set nonu<CR>")
 
+vim.keymap.set("n", "csd", ":colorscheme tokyonight-day<CR>")
+vim.keymap.set("n", "csn", ":colorscheme tokyonight-night<CR>")
+
 -- NERDTree
 vim.keymap.set("n", "<C-n>", ":NERDTreeToggle<CR>")
 
